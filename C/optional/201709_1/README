@@ -1,0 +1,41 @@
+[Problem description]
+
+Xiao Ming takes N yuan to buy soy sauce. Soy sauce costs 10 yuan per bottle. 
+The merchant is promoting that he will give 1 bottle for every 3 bottles he buys, 
+or 2 bottles for every 5 bottles he buys. How many bottles of soy sauce can Xiao Ming get at most?
+
+[Input format]
+
+The first line of input contains an integer N, which indicates the amount of money 
+Xiao Ming can use to buy soy sauce. N is an integer multiple of 10, and N does not exceed 300.
+
+[Output format]
+
+Output an integer indicating how many bottles of soy sauce Xiao Ming can get at most.
+
+[Sample input]
+
+40
+
+[Sample output]
+
+5
+
+[Sample description]
+
+Divide 40 yuan into 30 yuan and 10 yuan, buy 3 bottles and 1 bottle respectively, 
+and give 1 bottle for every 3 bottles, so you get 5 bottles in total.
+
+[Sample Input]
+
+80
+
+[Sample Output]
+
+11
+
+[Sample Description]
+
+Divide 80 yuan into 30 yuan and 50 yuan, buy 3 bottles and 5 bottles respectively, 
+1 bottle will be given for 3 bottles and 2 bottles will be given for 5 bottles, 
+so you get 11 bottles in total.

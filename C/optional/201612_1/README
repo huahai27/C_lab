@@ -1,0 +1,60 @@
+[Problem description]
+
+In an integer sequence a1, a2, …, an, if there is a number whose number of integers greater than it 
+is equal to the number of integers less than it, then it is called the middle number. 
+In a sequence, there may be multiple middle numbers with different subscripts, 
+and the values ​​of these middle numbers are the same.
+Given an integer sequence, please find the value of the middle number of this integer sequence.
+
+[Input format]
+
+The first line of input contains an integer n, which represents the number of numbers in the integer sequence.
+
+The second line contains n positive integers, which represent a1, a2, …, an in turn.
+
+[Output format]
+
+If the middle number of the agreed sequence exists, output the value of the middle number, 
+otherwise output -1 to indicate that there is no middle number.
+
+[Sample input]
+
+6
+
+2 6 5 6 3 5
+
+[Sample output]
+
+5
+
+[Sample description]
+
+There are 2 numbers smaller than 5 and 2 numbers larger than 5.
+
+[Sample Input]
+
+4
+
+3 4 6 7
+
+[Sample Output]
+
+-1
+
+[Sample Explanation]
+
+None of the 4 numbers in the sequence meets the definition of the middle number.
+
+[Sample Input]
+
+5
+
+3 4 6 6 7
+
+[Sample Output]
+
+-1
+
+[Sample Explanation]
+
+None of the 5 numbers in the sequence meets the definition of the middle number.

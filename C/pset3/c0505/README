@@ -1,0 +1,29 @@
+[Problem description]
+
+Write a program to find the longest common substring of the input strings s and t.
+
+[Input format]
+
+Read the strings s and t from the screen in lines. 
+s and t are composed of any characters and their length does not exceed 50 characters. 
+The input data ensures that there is only a unique longest common substring. 
+If there is no common substring, print No Answer
+
+[Output format]
+
+Output the longest common substring of strings s and t on a separate line, and output a carriage return at the end.
+
+Algorithm tips: Use an int type counter to record the current matching length, 
+and use a character array to record the current matching substring. 
+If there is a longer substring, replace it accordingly.
+
+[Sample description]
+
+Suppose the following content is input from the screen:
+aabcdababce
+12abcabcdace
+Then the output content is:
+abcda
+
+[Evaluation criteria]
+20 points for completely correct results, 4 points for each test point, and the submitted program file name is c0505.c.

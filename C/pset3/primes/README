@@ -1,0 +1,38 @@
+[Problem description]
+
+From the basic theorem of mathematics, we know that any non-prime integer greater than 1 (i.e. composite number) 
+can be uniquely decomposed into the product of several prime numbers. 
+Write a program to read a composite number from the console 
+(the size of the composite number will not exceed the range represented by the int data type) 
+and find the prime number that can be decomposed into only once. 
+For example, the composite number 1260 is decomposed into the prime product of: 2*2*3*3*5*7, 
+2 and 3 appear twice, 5 and 7 appear once, so the result is 5 and 7.
+
+[Input form]
+
+Enter a composite number from the console.
+
+[Output form]
+
+Output the prime numbers that appear only once after decomposition in the standard output 
+in order from small to large, with each prime number separated by a space, 
+and there can also be a space after the last prime number. 
+If there is no prime number that appears only once, nothing will be output.
+
+[Input Sample]
+
+6154380
+
+[Output Sample]
+
+5 29 131
+
+[Sample Description]
+
+The input composite number is 6154380, and the prime number product it decomposes into is: 2*2*3*3*3*3*5*29*131, 
+where 2 appears twice, 3 appears 4 times, and 5, 29, and 131 appear only once, so only 5, 29, and 131 are output.
+
+[Evaluation Criteria]
+
+This question requires outputting the prime numbers that appear once after the composite number is decomposed. 
+There are 5 test points in total. The submitted program file is named primes.c.

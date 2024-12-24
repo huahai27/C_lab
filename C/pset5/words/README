@@ -1,0 +1,67 @@
+[Problem description]
+
+Write a program to open an English article (stored in the file in.txt in the current directory) 
+and generate a vocabulary for the article (stored in another file words.txt in the current directory). 
+A word in the article refers to a string consisting of only lowercase or uppercase letters, 
+but the words in the vocabulary appear in lowercase letters. 
+If there are multiple identical words in the article that are case-insensitive, 
+only one word is generated in the vocabulary. 
+Assume that the number of words in the generated vocabulary will not exceed 100, 
+and the length of each word will not exceed 20. 
+The words in the vocabulary are stored in dictionary order from small to large.
+
+[Input form]
+
+The input English article is stored in the file in.txt in the current directory.
+
+[Output form]
+
+The output vocabulary is stored in the file words.txt in the current directory, each word occupies a separate line, 
+and is stored in dictionary order from small to large.
+
+[Input Sample]
+
+Suppose the article in in.txt is as follows:
+
+C was originally designed for and implemented on the UNIX operating system on the DEC PDP-11, by Dennis Ritchie.
+
+The book is not an introductory programming manual.
+
+[Output Sample]
+
+The generated vocabulary is stored in words.txt, and its content should be as follows:
+
+an
+and
+book
+by
+dec
+dennis
+designed
+for
+implemented
+introductory
+is
+manual
+not
+on
+operating
+originally
+pdp
+programming
+ritchie
+system
+the
+unix
+was
+
+[Sample Description]
+
+In the English article read in, all English letter strings (consisting of one or more consecutive letters) 
+will correspond to a word in the generated vocabulary, 
+for example: two the and one The in the article correspond to the word the in the generated vocabulary; 
+the single letter C also appears as a single word, so it also corresponds to a word c in the generated vocabulary.
+
+[Evaluation criteria]
+
+This question requires you to output a vocabulary list of an English article. The submitted program file name is words.c.

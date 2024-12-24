@@ -1,0 +1,60 @@
+[Problem description]
+
+The credits in English movies are usually displayed in a certain format. 
+Given an unformatted file listin.txt, each line of the credits is separated by a colon ":" into two parts, 
+but the format is messy, and words (composed of characters other than spaces and horizontal tabs) 
+may be separated by multiple spaces or horizontal tabs. 
+
+Write a program to format and output it to another file listout.txt according to the following formatting rules:
+1. Read an integer from the standard input as the fixed position of the colon ":" in all lines after formatting; 
+   assume that the input integer must be greater than the number of characters before the colon ":" in all lines after formatting, 
+   and the position is counted from 1;
+2. The word string on the left of the colon ":" is left-aligned based on the head of the line, 
+   and the space between the last word on the left and the colon is filled; the word string on the right of the colon ":" is 
+   left-aligned based on the colon ":", and there are only carriage return and line feed characters after the last word, 
+   and no other characters;
+3. There is only one space between the words on both sides of the colon ":", 
+   and there must be at least one space on both sides of the colon.
+Assume that the number of characters per line in the input file does not exceed 100.
+
+[Input format]
+
+The list of performers to be typeset is read from the listin.txt file in the current directory; 
+the integer representing the position of the colon ":" is read from the standard input.
+
+[Output format]
+
+The typesetting list of actors is output to listout.txt in the current directory.
+
+[Input example]
+
+Assume that the content of the file listin.txt is:
+
+Digital Intermediate by : EFILM
+
+Supervising Digital Colorist : STEVEN J. SCOTT
+
+Second Colorist :ANDREW FRANCIS
+
+Digital Intermediate Producer:LOAN PHAN
+
+Digital Intermediate Editor: DEVON MILLER
+
+The integer representing the fixed position of the colon is:
+
+40
+
+[Output example]
+
+The content of the file listout.txt should be:
+
+[Example description]
+
+The input file listin.txt contains five lines of actors. It is required that the colon ":" is located at 
+the 40th character position after typesetting, 
+and it is output to the file listout.txt according to the above typesetting rules.
+
+[Evaluation criteria]
+
+This question requires the file content to be typeset according to the typesetting rules, 
+and the submitted program file name is typeset.c.

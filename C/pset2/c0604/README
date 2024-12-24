@@ -1,0 +1,29 @@
+[Problem description]
+
+A palindrome is a sentence that is the same when read forward and backward. 
+Read a sentence with a maximum length of no more than 50 characters and determine whether it is a palindrome.
+
+[Input format]
+
+Enter a sentence with a maximum length of no more than 50 characters.
+
+[Output format]
+
+Yes/No
+
+[Input sample]
+
+abcba
+
+[Output sample]
+
+Yes
+
+[Sample description]
+
+Enter abcba and determine that it is a palindrome.
+
+[Grading criteria]
+
+This question requires outputting a judgment value. A correct answer will score 20 points, and each test point will score 4 points. 
+The submitted program file name is c0604.c.

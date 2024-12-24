@@ -1,0 +1,39 @@
+[Problem description]
+
+Write a program to replace a specified string in a line of English with another string and then output it. 
+Note: When searching for a specified string, it is case-insensitive and may appear multiple times.
+
+[Input format]
+
+First, input two English strings from the standard input in separate lines 
+(each string is not empty, the length does not exceed 20, and there are no spaces in the string), 
+representing the replaced string and the replaced string respectively, 
+and then input a line of English in the next line (the length does not exceed 200), 
+with a carriage return at the end of the line.
+
+[Output format]
+
+Replace the input English with the specified string and output it to the standard output, with a carriage return at the end.
+
+[Sample Input]
+
+th
+Hello
+This second edition of "The C Programming Language" describes C as defined by the ANSI standard. 
+Modern compilers already support most features of the standard.
+
+[Sample Output]
+
+Hellois second edition of "Helloe C Programming Language" describes C as defined by Helloe ANSI standard. 
+Modern compilers already support most features of Helloe standard.
+
+[Sample Description]
+
+The string to be replaced in the sample is th. Since it is a case-insensitive search and replace, 
+there are four substrings to be replaced in the next line of English information: Th, Th, th and th, 
+which are replaced with Hello respectively, and the other information is output as is.
+
+[Evaluation Criteria] 
+
+This question requires programming to implement case-insensitive search and replace of the specified string, 
+and the submitted program file name is exam2.c or exam2.cpp.

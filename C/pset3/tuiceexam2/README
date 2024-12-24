@@ -1,0 +1,54 @@
+[Problem description] 
+
+Write a program to implement the operation of adding two univariate polynomials.
+
+[Input form] 
+
+Read two lines of integers separated by spaces from the standard input. 
+Each line represents a polynomial, and the coefficients of each term in the polynomial are 0 or positive integers, 
+and the highest power does not exceed 50. The representation method for the polynomial 
+a^nx^n + a^(n-1)x^(n-1)+ … + a^1x^1 + a^0x^0 (n≤50) is as follows: a^n n a^(n-1) n-1 … a^1 1 a^0 0
+
+That is, two adjacent integers represent the coefficient and exponent of a term in the expression respectively. 
+Only terms with non-zero coefficients appear in the input.
+
+[Output form] 
+
+Output the operation result to the screen. 
+Output the terms with non-zero coefficients in order of exponent from high to low, 
+and output their coefficients and exponents each time, separated by a space. 
+Output a space character at the end of the line, and require a line break at the end.
+
+[Sample Input]
+
+10
+
+54 8 2 6 7 3 25 1 78 0
+
+6
+
+43 7 4 2 8 1
+
+[Sample Output]
+
+54 8 43 7 2 6 7 3 4 2 33 1 78 0 
+(Numbers are separated by a space, and there is also a space at the end)
+
+[Sample Description] 
+
+The two lines of the input file represent the expressions
+
+54x^8 + 2x^6 + 7x^3 + 25x + 78
+
+43x^7 + 4x^2 + 8x
+
+The sum is
+
+54x^8 + 43x^7 + 2x^6 + 7x^3 + 4x^2 + 33x + 78
+
+Note: When inputting, first enter the number of coefficients and the sum of the number of exponents of the polynomial, 
+and then follow the "coefficients" in the next line. Input coefficients and exponents in the order of "Exponent":
+
+[Evaluation criteria] 
+
+15 points for completely correct results, 3 points for each test point. Submit program name: tuicexam2.c

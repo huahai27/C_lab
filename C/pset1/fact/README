@@ -1,0 +1,61 @@
+[Problem description]
+
+If a positive integer is equal to the sum of the factorials of its digits, 
+then the positive integer is called a factorial sum number. 
+For example, the positive integer 145, 1!+4!+5! is equal to 145, so 145 is a factorial sum number. 
+Enter a positive integer, calculate the sum of the factorials of its digits, 
+and determine whether it is a factorial sum number. 
+Note: The input positive integer and the sum of the factorials of its digits 
+will not exceed the representation range of the int type, 
+and the highest bit of the input positive integer is not 0.
+
+[Input form]
+
+Enter a positive integer from the console.
+
+[Output form]
+
+First output the input positive integer and a comma "," and then output the factorial addition form of the digits 
+that make up the positive integer starting from the highest bit, then output the equal sign "=" 
+and the sum of the factorials of the digits, 
+and finally output the string "Yes" on the next line to indicate that the positive integer is a factorial sum number, 
+otherwise output the string "No" to indicate that the positive integer is not a factorial sum number, 
+and output the carriage return and line feed after outputting Yes or No. There are no spaces between all output characters.
+
+[Input Sample 1]
+
+145
+
+[Output Sample 1]
+
+145,1!+4!+5!=145
+Yes
+
+[Input Sample 2]
+
+1400
+
+[Output Sample 2]
+
+1400,1!+4!+0!+0!=27
+No
+
+[Input Sample 3]
+
+4
+
+[Output Sample 3]
+
+4,4!=24
+No
+
+[Sample Description]
+
+The positive integer input in Sample 1 is 145, and the sum of the factorials of its digits is 145, so 145 is a factorial sum. 
+The positive integer input in Sample 2 is 1400, and the sum of the factorials of its digits is 27, so 1400 is not a factorial sum. 
+The positive integer input in Sample 3 is 4, and it has only one digit, and its factorial is 24, which is also not a factorial sum.
+
+[Evaluation Criteria]
+
+This question requires you to determine whether the input positive integer is a factorial sum. 
+The program file name to be submitted is fact.c or fact.cpp.

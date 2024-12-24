@@ -1,0 +1,65 @@
+[Problem description]
+
+It is known that the approximate value of π can be calculated using the following formula. 
+Given an approximate value e of π, use the following formula to find the approximate value π closest to e, 
+and the number of iterations n (greater than or equal to 1).
+π/2 = (2/1 x 2/3) x (4/3 x 4/5) x (6/5 x 6/7) x … x [2n/(2n-1)x2n/(2n+1)]
+
+[Input format]
+
+Enter the value of e (e is greater than 2.6666667 and less than 3.14159) from the console.
+
+[Output format]
+
+Output the approximate value π closest to e, and the number of iterations n 
+(separated by a space, and 9 significant digits are required after the decimal point when outputting π).
+
+[Sample Input 1]
+
+3.1201
+
+[Sample Output 1]
+
+3.120149087 36
+
+[Sample 1 Description]
+
+The approximate value e of the input π is 3.1201. 
+When n is 35, the calculated π value is 3.119547206, 
+and the absolute value of the difference with the given e value is 0.000552794. 
+When n is 36, the calculated π value is 3.120149087, 
+and the absolute value of the difference with the given e value is 0.000049087. 
+It can be seen that the π value obtained when n is 36 is closer to the given e value than when n is 35. 
+And the π value obtained when n is 36 is already greater than the given e value. 
+When n continues to increase, the obtained π value will increase. 
+Therefore, the approximate value closest to e obtained by the above calculation formula is 3.120149087, 
+and the corresponding number of iterations is 36.
+
+[Sample Input 2]
+
+3.11955
+
+[Sample Output 2]
+
+3.119547206 35
+
+[Sample 2 Description]
+
+The approximate value e of the input π is 3.11955. 
+When n is 35, the calculated π value is 3.119547206, 
+and the absolute value of the difference with the given e value is 0.000002794. 
+When n is 36, the calculated π value is 3.120149087, 
+and the absolute value of the difference with the given e value is 0.000599087. 
+It can be seen that the π value obtained when n is 35 is closer to the given e value than when n is 36. 
+And the π value obtained when n is 36 is already greater than the given e value. 
+When n continues to increase, the obtained π value will increase. 
+Therefore, the approximate value closest to e obtained by the above calculation formula is 3.119547206, 
+and the corresponding number of iterations is 35.
+
+Note:
+To ensure the accuracy of calculation, please use double data type to save the calculation data.
+
+[Evaluation criteria]
+
+This question requires outputting the approximate value of π and the number of iterations. 
+The uploaded C language file is named exam1.c or exam1.cpp.

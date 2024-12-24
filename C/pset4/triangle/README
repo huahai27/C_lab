@@ -1,0 +1,34 @@
+[Problem description]
+
+Display the following Pascal's triangle on the screen:
+                            1
+                         1      1
+                     1      2      1
+                 1       3     3       1
+             1       4      6      4       1
+         1       5      10     10      5       1
+     …      …      …     …      …      …      …      … 
+
+[Input form]
+
+Enter an integer n from the keyboard (n>=0 and n<=12)
+
+[Output form]
+
+Output n+1 rows of Pascal's triangles on the screen.
+
+[Input sample]
+
+3
+
+[Output sample]
+------***1
+----***1***1
+--***1***2***1
+***1***3***3***1
+Among them, - and * are spaces
+That is, each number occupies four digits!
+
+[Evaluation criteria]
+
+20 points for completely correct results, 4 points for each test point, and the submitted program file name is: triangle.c.

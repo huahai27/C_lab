@@ -1,0 +1,36 @@
+[Problem description]
+
+Input two sets of integers from the standard input 
+(each set does not exceed 20 integers, the elements in each set of integers are not repeated, 
+and the integers are greater than or equal to 0), program to find the intersection of the two sets of integers, 
+that is, the integers that appear in both sets of integers, and output them in ascending order. 
+If the intersection is empty, nothing is output.
+
+[Input format]
+
+Enter two sets of integers on two lines, separate each integer with a space, and end with -1 as input.
+
+[Output format]
+
+Output the intersection of the two sets of integers in ascending order 
+(separate each integer with a space, and the space after the last integer is optional).
+
+[Sample Input]
+
+5 105 0 4 32 8 7 9 60 -1
+5 2 87 10 105 0 32 -1
+
+[Sample Output]
+
+0 5 32 105
+
+[Sample Description]
+
+The first group of integers has 9, namely 5 105 0 4 32 8 7 9 60, and the second group of integers has 7, 
+namely 5 2 87 10 105 0 32. There are four integers that appear in both groups of integers. 
+After sorting them in ascending order, the output result is 0 5 32 105.
+
+[Evaluation Criteria] 
+
+This question requires outputting the intersection of two groups of integers. There are 5 test points in total. 
+The submitted program file is named and.c.

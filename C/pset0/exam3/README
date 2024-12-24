@@ -1,0 +1,32 @@
+[Problem description]
+
+It is known that the approximate value of e^x can be calculated by the following formula:
+
+e^x=1 + x/1! + x^2/2! + x^3/3! + ...... + x^n/n!
+Given x and n, use the above formula to find the approximate value of e^x.
+
+[Input form]
+
+Input a decimal x and an integer n (n>=1) from the console, separated by a space.
+
+[Output form]
+
+Output the approximate value of ex to the console (retain 6 valid digits after the decimal point).
+
+[Sample input]
+
+7 27
+
+[Sample output]
+
+1096.633156
+
+[Sample description]
+
+The input x is 7, and the value of n is 27, that is: find the approximate value of e^7. 
+The approximate value obtained by the above formula is: 1096.633156.
+
+[Evaluation criteria]
+
+This question requires outputting the approximate value of ex, with a total of 5 test points. 
+Upload the C language file named formula.c.

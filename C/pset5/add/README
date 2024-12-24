@@ -1,0 +1,43 @@
+[Problem description]
+
+Write a program to implement the addition operation of 
+two super-long positive integers (each with a maximum of 80 digits).
+
+[Input form]
+
+Read two integers from the keyboard, and consider the possibility that 
+the high bit of the input may be 0 (such as 00083).
+1. The first line is the super-long positive integer A;
+2. The second line is the super-long positive integer B;
+
+[Output form]
+
+The output is only one line, which is the result of the operation of the two long integers, 
+and the digits are output in order from high to low. The digits are output closely.
+
+Algorithm tips:
+1. Use a string to input two super-long integers, and store them in two strings respectively. 
+   Each digit corresponds to a character in a string.
+2. Based on the shorter super-long integer, from low to high, convert the corresponding bits 
+   into numbers and add them, and then add the carry of the previous bit. 
+   The sum modulo 10 is converted into a character, which is the current bit. 
+   The sum divided by 10 is the carry of the current bit. Save each calculated bit to the result character array.
+3. Move the remaining bits of the longer string plus the last carry to the back of the structure array.
+4. Output the result array in reverse order (remove the extra 0s in the high order).
+
+[Input Sample]
+
+134098703578230056
+234098
+
+[Output Sample]
+
+134098703578464154
+
+[Sample Description]
+
+Perform the addition operation of two positive integers, 134098703578230056 + 234098 = 134098703578464154.
+
+[Evaluation Criteria]
+
+20 points for complete correctness, 4 points for each test point, and the submitted program file name is add.c.

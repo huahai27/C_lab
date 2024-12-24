@@ -1,0 +1,48 @@
+[Problem description]
+
+Write a program to read the numerator and denominator of a fraction from the console 
+(the fraction is unsigned, and the numerator is smaller than the denominator, 
+and its size will not exceed the representation range of the int data type), 
+and output the fraction whose numerator and denominator do not contain a common divisor after simplification.
+
+[Input format]
+
+Input two positive integers from the console to represent the numerator and denominator respectively, 
+and separate the two integers with a space.
+
+[Output format]
+
+Output the simplified numerator and denominator on the standard output, separated by a space.
+
+[Input sample 1]
+
+26664 479952
+
+[Output sample 1]
+
+1 18
+
+[Sample 1 description]
+
+The numerator input is 26664, the denominator is 479952, 
+and the denominator can be divided by the numerator. 
+The simplified numerator output is 1 and the denominator is 18.
+
+[Input Sample 2]
+
+9 24
+
+[Output Sample 2]
+
+3 8
+
+[Sample 2 Description]
+
+The input numerator is 9 and the denominator is 24. After simplification, 
+the numerator and denominator are 3 and 8 respectively, 
+without common divisors.
+
+[Evaluation Criteria]
+
+This question requires the output of the simplified numerator and denominator, 
+and the submitted program file name is fraction.c.

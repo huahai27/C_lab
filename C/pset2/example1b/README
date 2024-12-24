@@ -1,0 +1,53 @@
+[Problem description]
+
+Find the "maximum point" of a two-dimensional integer array. 
+The "maximum point" of a two-dimensional array is defined as: 
+a number is the maximum value of the row and the maximum value of the column. 
+Note: There may be multiple "maximum points" on a row or column.
+
+[Input format]
+
+Read the two-dimensional array from the console.
+
+The first line only has two positive integers n and m (n, m <= 10) separated by spaces. 
+n represents the number of rows of the two-dimensional array, 
+and m represents the number of columns of the two-dimensional array.
+
+Then enter the elements of the two-dimensional array on the subsequent n lines. 
+Each line has m integers separated by several spaces, 
+representing all the elements of the two-dimensional array on that line.
+
+[Output format]
+
+Output the "maximum point" of the two-dimensional array to the console, 
+and output it in the order of row and column subscripts from small to large, one per line. 
+First output the "maximum point" value, then output the corresponding number of rows and columns 
+(rows and columns are counted from 1), separated by a space.
+
+[Sample Input]
+
+3 4
+
+8 60 7 100
+
+10 498 12 49
+
+-71 132 4 85
+
+[Sample Output]
+
+100 1 4
+498 2 2
+
+[Sample Description]
+
+A two-dimensional array with three rows and four columns is input. 
+The element 100 in the first row and fourth column is the largest element in the first row and 
+the largest element in the fourth column, so this element is the "maximum point". Output 100 1 4. 
+Similarly, the element 498 in the second row and second column is also the largest element in the second row and 
+the largest element in the second column, so this element is also the "maximum point". Output 498 2 2.
+
+[Evaluation Criteria]
+
+This question requires outputting all the "maximum points" of the two-dimensional array. There are 5 test points in total. 
+Upload the C language file named example1b.c.

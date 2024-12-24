@@ -1,0 +1,49 @@
+[Problem description]
+
+A three-digit decimal integer is called a "Daffodil number" if the sum of the cubes of its three digits is equal to 
+the value of this number. Write a program to calculate all the "Daffodil numbers" in a certain range.
+
+[Input format]
+
+Input two integers (separated by spaces) from the console, representing the lower limit m and upper limit n of the data range, 
+respectively, and satisfying 0<=m<=n<=10000.
+
+[Output format]
+
+Output all the "Daffodil numbers" in the data range (including the upper and lower limits of the data) to the console, 
+and display them in a row in ascending order, with spaces between the numbers. 
+If there is no "Daffodil number" in the data range, output the string No Answer.
+
+[Sample input 1]
+
+50 370
+
+[Sample output 1]
+
+153 370
+
+[Sample 1 description]
+
+The lower limit of the input data range is 50 and the upper limit is 370. 
+Since the Narcissus number is required to be a three-digit number, 
+it is actually to find the Narcissus number between 100 and 370. 
+Since 13 + 53 + 33 = 153, 33 + 73 + 03 = 370, the Narcissus numbers in this range are 153 and 370 
+(including the upper limit 370).
+
+[Sample Input 2]
+
+110 150
+
+[Sample Output 2]
+
+No Answer
+
+[Sample 2 Description]
+
+The lower limit of the input data range is 110 and the upper limit is 150. 
+Because there is no Narcissus number between the data range, the string No Answer is output.
+
+[Evaluation Criteria]
+
+This question requires the output of the Narcissus number within a certain data range, with a total of 5 test points. 
+The uploaded C language file is named example1a.c.

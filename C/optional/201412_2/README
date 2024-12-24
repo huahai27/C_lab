@@ -1,0 +1,34 @@
+For the following 4×4 matrix,
+1 5 3 9
+3 7 5 6
+9 4 6 4
+7 3 1 3
+After performing a zigzag scan on it, a sequence of length 16 is obtained:
+1 5 3 9 7 3 9 5 4 7 3 6 6 4 1 3
+Please implement a zigzag scan program. Given an n×n matrix, output the result of a zigzag scan of this matrix.
+
+[Input format]
+
+The first line of input contains an integer n, indicating the size of the matrix.
+Each line from the second to the n+1th line of input contains n positive integers separated by spaces, indicating the given matrix.
+
+[Output format]
+
+Output a line containing n×n integers separated by spaces, indicating the result of the input matrix after a zigzag scan.
+
+[Sample Input]
+
+4
+1 5 3 9
+3 7 5 6
+9 4 6 4
+7 3 1 3
+
+[Sample Output]
+
+1 5 3 9 7 3 9 5 4 7 3 6 6 4 1 3
+
+[Evaluation Criteria]
+
+Evaluation Case Scale and Agreement
+1≤n≤500, matrix elements are positive integers not exceeding 1000.
